@@ -106,3 +106,29 @@ main{
     background-color:#D3D3D3 ;
 }
 
+.section-black{
+    background-color:#23272A ;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-bottom: white solid 1px;
+}
+
+.contain-footer{
+    display: flex;
+    min-height: 580px;
+}
+
+.contain-salmon{
+    background-color:#F08080 ;
+    width: 30%;
+}
+
+.contain-petrol{
+    display: flex;
+    background-color:#20B2AA ;
+    width: 70%;
+}
+
+.contain-sec{
+    width: 25%;
+}
