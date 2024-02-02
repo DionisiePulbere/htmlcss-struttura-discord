@@ -12,7 +12,7 @@
     DEBUG
 -------------------- */
 
-.contain-header,.contain-login,nav,.contain-login,.contain-pink{
+[class*="contain"], nav{
     border: 1px black dashed;
 }
 
@@ -31,15 +31,11 @@ header{
     line-height: 45px;
 }
 
-.contain{
-    width: 1180px;
-    min-height: 45px;
-    
-}
-
 .contain-header{
     display: flex;
     background-color: orange;
+    width: 1180px;
+    min-height: 45px;
 }
 
 .contain-20{
@@ -58,18 +54,55 @@ nav{
 }
 
 /* --------------------
-    SECTION
+    SECTION HERO
 -------------------- */
+
+[class*="section"]{
+    padding: 50px 410px;
+}
 
 .section-blu{
     background-color: #02008B;
+}
+
+.contain-magenta{
+    margin: auto;
+    background-color: #EE82EE;
+    width: 900px;
+    min-height: 380px;
+}
+
+/* --------------------
+    MAIN
+-------------------- */
+
+main{
+    margin: auto;
+}
+
+.contain{
     display: flex;
-    
+    width: 1180;
+    min-height: 380px;
+}
+
+.contain-blu{
+    background-color:#1D90FF ;
+    width: 60%;
 }
 
 .contain-pink{
-    margin: 50px auto;
-    background-color: #EE82EE;
-    min-width: 900px;
-    min-height: 380px;
+    background-color:#FBBDC8 ;
+    width: 40%;
 }
+
+.contain-green{
+    background-color:#228C22 ;
+    width: 100%;
+    min-height: 900px;
+}
+
+.section-grey{
+    background-color:#D3D3D3 ;
+}
+
