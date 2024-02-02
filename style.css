@@ -12,7 +12,7 @@
     DEBUG
 -------------------- */
 
-[class*="contain"], nav{
+[class*="contain"], nav, .footer-logo,.footer-btn{
     border: 1px black dashed;
 }
 
@@ -105,14 +105,20 @@ main{
 .section-grey{
     background-color:#D3D3D3 ;
 }
-
-.section-black{
+/* --------------------
+    FOOTER
+-------------------- */
+.sec-black-1{
     background-color:#23272A ;
-    padding-top: 10px;
+    padding: 10px 410px;
     padding-bottom: 40px;
-    border-bottom: white solid 1px;
+    border-bottom: white solid 2px; 
 }
-
+.sec-black-2{
+    background-color:#23272A ;
+    padding: 0 410px;
+    padding-top: 30px;
+}
 .contain-footer{
     display: flex;
     min-height: 580px;
@@ -131,4 +137,18 @@ main{
 
 .contain-sec{
     width: 25%;
+}
+
+.contain-water{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#7FFFD4 ;
+    min-height: 80px;
+}
+
+.footer-logo, .footer-btn{
+    background-color:#FFB6C1 ;
+    width: 60px;
+    text-align: center;
 }
